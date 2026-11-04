@@ -161,9 +161,7 @@
 }
 
 .lots {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
+  display: block;
   padding-top: 180px;
   padding-right: 24px;
   padding-bottom: 0;
@@ -180,7 +178,10 @@
 }
 
 .lots__list {
-  display: contents;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
 }
 
 .lot-card {
