@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  min-width: 320px;
+  width: 1100px;
+  max-width: 100%;
   margin: 0;
   color: #000;
   background-color: #fff;
@@ -42,7 +43,7 @@ ol {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 h1,
