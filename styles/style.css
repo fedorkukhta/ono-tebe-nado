@@ -104,17 +104,23 @@
 .cover__title-word--center {
   grid-column: 2;
   grid-row: 2;
+  justify-self: center;
   padding-left: 14px;
+  text-align: center;
 }
 
 .cover__title-word--right {
   grid-column: 1 / span 4;
   grid-row: 3;
+  justify-self: end;
+  text-align: right;
 }
 
 .cover__title-word--left {
   grid-column: 1;
   grid-row: 1;
+  justify-self: start;
+  text-align: left;
 }
 
 .cover__title-last-letter {
