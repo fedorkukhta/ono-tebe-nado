@@ -6,6 +6,7 @@
 
 .content-section {
   width: 100%;
+  max-width: var(--content-width);
   margin: 0 auto;
 }
 
@@ -284,6 +285,7 @@
 .about__content {
   grid-area: about-content;
   display: block;
+  min-width: 0;
   padding-top: 140px;
 }
 
@@ -296,6 +298,7 @@
   grid-template-columns: 1fr;
   gap: 24px;
   width: 693px;
+  min-width: 0;
   padding-top: 10px;
   font-size: 20px;
   line-height: 24px;
@@ -324,6 +327,7 @@
 }
 
 .footer__socials {
+  display: flex;
   justify-content: flex-end;
   gap: 48px;
 }
