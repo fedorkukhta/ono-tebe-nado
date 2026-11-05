@@ -264,6 +264,7 @@
   grid-template-areas:
     "logo about-content";
   column-gap: 24px;
+  height: 595px;
   margin: 120px 24px 180px;
   padding-bottom: 0;
 }
@@ -314,9 +315,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
+  height: 180px;
   min-width: 0;
   gap: 0;
-  padding: 0 50px 25px;
+  padding: 0 50px 94px;
   border-top: 0;
 }
 
@@ -400,6 +402,7 @@
 
   .about {
     width: auto;
+    height: auto;
     grid-template-columns: 1fr;
     grid-template-areas:
       "logo"
@@ -425,8 +428,8 @@
   .footer {
     grid-template-columns: 1fr;
     gap: 35px;
-    padding-right: 24px;
-    padding-left: 24px;
+    height: auto;
+    padding: 0 24px 25px;
   }
 
   .footer__socials {
