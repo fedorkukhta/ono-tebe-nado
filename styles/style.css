@@ -14,6 +14,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
+  min-width: 0;
   width: 100%;
   margin-bottom: 6px;
   padding: 5px 50px 0;
@@ -83,6 +84,7 @@
 .cover__content {
   position: relative;
   display: grid;
+  min-width: 0;
   min-height: 757px;
 }
 
@@ -312,6 +314,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
+  min-width: 0;
   gap: 0;
   padding: 0 50px 25px;
   border-top: 0;
@@ -322,6 +325,8 @@
 }
 
 .footer__menu-list {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   line-height: 22px;
 }
